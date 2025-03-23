@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.item_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #f1dbc0;
+}
+
+.Rubik_Pixels {
+    font-family: Rubik Pixels, Verdana, sans-serif;
+}
+.Sedgwick_Ave_Display {
+    font-family: Sedgwick Ave Display, Verdana, sans-serif;
+}
+.Dancing_Script {
+    font-family: Dancing Script, Verdana, sans-serif;
+}
+
+.Fjalla_One {
+    font-family: Fjalla One, Verdana, sans-serif;
+}
+
+.Indie_Flower {
+    font-family: Indie_Flower, Verdana, sans-serif;
+}
+

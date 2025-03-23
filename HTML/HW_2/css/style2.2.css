@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+}
+.container {
+    margin: 0 100px;
+    height: 300px;
+    background-color: rgb(241, 218, 192);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.item {
+    background-color: rgb(224, 50, 37);
+    width: 100px;
+    height: 100px;
+    transition: 0.4s;
+}
+
+.item:hover {
+    background-color: rgb(124, 124, 124);
+    border-radius: 50%;
+    transition: 0.4s;
+}

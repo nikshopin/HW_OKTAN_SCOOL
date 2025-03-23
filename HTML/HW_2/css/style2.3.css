@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(85, 107, 83);
+}
+.container {
+    margin: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item {
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cbd9c3;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wrap {
+
+}

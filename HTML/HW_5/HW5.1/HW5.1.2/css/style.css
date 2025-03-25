@@ -1,0 +1,35 @@
+.container{
+    margin-top: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 50px;
+}
+.line{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    animation: loader 3s linear infinite;
+}
+
+@keyframes loader {
+    from {
+        width: 100px;
+        border-radius: 50%;
+        background-color: greenyellow;
+    }
+    50%{
+        width: 500px;
+        border-radius: 30%;
+    }
+    to {
+        width: 100px;
+        border-radius: 50%;
+        background-color: red;
+    }
+
+}

@@ -1,0 +1,22 @@
+li, h1 {
+    font-size: 35px;
+}
+div:first-child> :nth-child(2)> :nth-child(even) {
+    color: orange;
+}
+div:nth-child(2)> :nth-child(2)> :nth-child(odd) {
+    font-size: 22px;
+}
+
+div:nth-child(3)> :nth-child(2)> :nth-child(2n+4)::after {
+    content: "!";
+}
+
+div:nth-child(4) > :last-child :last-child{
+    color: #401983;
+}
+
+div:nth-child(5) > :last-child>:nth-child(n):first-letter {
+    font-size: 30px;
+    color: red;
+}

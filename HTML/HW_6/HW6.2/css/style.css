@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #3b8485;
+}
+
+.container{
+    margin:1000px auto ;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background: #e0e9e9;
+}
+.button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    background: #f4f4f5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form {
+    width: 50%;
+    height: 65%;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrap_form_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.wrap_checkbox {
+    display: flex;
+    flex-direction: row;
+    width: 43%;
+    height: 75%;
+    justify-content: flex-start;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.wrap_button {
+    width: 35%;
+}
+
+
+

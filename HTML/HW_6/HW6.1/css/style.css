@@ -1,6 +1,4 @@
-li, h1 {
-    font-size: 35px;
-}
+
 div:first-child> :nth-child(2)> :nth-child(even) {
     color: orange;
 }

@@ -13,7 +13,7 @@ body{
     align-items: center;
 }
 .container{
-    width: 10%;
+    width: 30%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -31,9 +31,9 @@ body{
     margin-bottom:10px;
 }
 .logo {
-    width: 400px;
+    width: 300px;
     height: 150px;
-    margin: 80px 100px;
+    margin: 50px 50px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1600px-Instagram_logo.svg.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body{
     flex-direction: column;
 }
 input {
-    font-size: 25px;
+    font-size: 18px;
     padding: 15px 20px;
     width: 100%;
     margin-bottom: 15px;
@@ -59,16 +59,16 @@ input {
     border-radius: 30px;
     margin-top: 10px;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 p {
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 form a {
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .bottom {
@@ -76,10 +76,11 @@ form a {
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 20px;
     background-color: #f4f4f5;
     border: 1px solid grey;
     padding: 30px 5px;
-    font-size: 27px;
+    font-size: 20px;
 }
 .wrap_facebook {
     margin-bottom: 20px;
@@ -91,5 +92,5 @@ form a {
     margin-right: 10px;
 }
 .link_facebook{
-    font-size: 40px;
+    font-size: 30px;
 }

@@ -12,9 +12,9 @@ body{
 }
 
 .container{
-    margin:1000px auto ;
-    width: 700px;
-    height: 600px;
+    margin:100px auto ;
+    width: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,10 +51,10 @@ body{
     border-bottom-right-radius: 5px;
 }
 .form {
-    width: 50%;
+    width: 60%;
     height: 65%;
     display: flex;
-    padding-top: 100px;
+    padding-top: 50px;
     align-items: center;
     flex-direction: column;
 }
@@ -75,7 +75,7 @@ input{
 .wrap_checkbox {
     display: flex;
     flex-direction: row;
-    width: 43%;
+    width: 50%;
     height: 75%;
     justify-content: flex-start;
 }

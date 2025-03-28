@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+    body {
+        min-height: 100vh
+    }
+    .article {
+        gap: 24px;
+        margin: 32px 16px;
+    }
+    .article_image {
+        width: 128px;
+        height: 128px;
+        margin-bottom: 16px;
+    }
+
+    .article_item {
+        width: 100%;
+        padding: 0 ;
+    }
+
+    .article_title {
+        margin-bottom: 8px;
+        color: #161543;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 120%; /* 24px */
+    }
+    .atricle_descr {
+        max-width: 348px;
+
+    }
+}

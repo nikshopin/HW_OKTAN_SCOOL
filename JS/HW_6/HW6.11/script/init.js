@@ -27,10 +27,10 @@ let sortFullCards = cards.reduce((acc, card) => {
 
 
 let sortByColor = fullCards.reduce((result,item)=>{
-    if (item.color ==='black') result.black.push(item);
-    if (item.color === 'red') result.red.push(item);
+    if (item.color ==='black') result[0].push(item);
+    if (item.color === 'red') result[1].push(item);
     return result
-},{black:[], red:[]})
+},[[], []])
 
 console.log(sortFullCards);
 

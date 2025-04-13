@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    width: 100vh;
+    height: 100vh;
+}
+
+.container{
+    width: 1440px;
+    height: 100%;
+    background: #D1EF53;
+    margin: 0 auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.mealWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border: 1px solid black;
+
+}
+
+.mealImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.mealWrapContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutMeal{
+
+}
+
+.cookingMethod{
+
+}
+
+.ingredients{
+
+}
+
+.cuisine {
+
+}
+
+
+

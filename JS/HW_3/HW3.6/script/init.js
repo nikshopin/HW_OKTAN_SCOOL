@@ -46,7 +46,7 @@ document.write('<div>');
 
 for (let product of products) {
     document.write('<h3 class="product-title">' + product.title + 'Price - ' + product.price + '</h3>');
-    document.write('<img style="width: 80px; height: 80px" src="' + product.image + '" alt="' + product.title + '" class="product-image">')
+    document.write('<img css="width: 80px; height: 80px" src="' + product.image + '" alt="' + product.title + '" class="product-image">')
 }
 
 document.write('</div>');

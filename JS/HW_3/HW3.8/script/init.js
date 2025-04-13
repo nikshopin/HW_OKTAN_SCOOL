@@ -232,9 +232,9 @@ let usersList = [
 ];
 
 
-document.write('<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;"  class="users-box">')
+document.write('<div css="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;"  class="users-box">')
 for (let user of  usersList){
-    document.write('<div style="border:1px solid;display: flex; flex-direction: column; justify-content: center; align-items: center;" class="user-block">')
+    document.write('<div css="border:1px solid;display: flex; flex-direction: column; justify-content: center; align-items: center;" class="user-block">')
         document.write('<h2>' + user.id + '-' + user.name + '-' + user.username +  '</h2>')
         document.write('<h3>' + user.email + '-' + user.phone + '</h3>')
         document.write('<div class="address-block">')

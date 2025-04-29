@@ -7,6 +7,7 @@ function copyDeplObject(obj){
                 newObj[objKey] = obj[objKey].bind(newObj);
             }
         }
+        console.log (newObj);
         return newObj;
     }
 }
@@ -19,17 +20,17 @@ let testObject = {
 }
 
 
-console.log( testObject );
+// console.log( testObject );
 
 let copyTestObject= copyDeplObject(testObject);
-console.log(copyTestObject);
+// console.log(copyTestObject);
 
-console.log("Является ли копией объект ", testObject === copyTestObject);
-console.log("howOld ли копией  ", testObject.howOld === copyTestObject.howOld );
-console.log( "outPut ли копией  ", testObject.outPut === copyTestObject.outPut );
-console.log("Является ли владельцем свойства outPut?? ", copyTestObject.hasOwnProperty('outPut'));
-testObject.outPut();
-copyTestObject.outPut();
-copyTestObject.name = 'Vasya';
-copyTestObject.outPut();
+// console.log("Является ли копией объект ", testObject === copyTestObject);
+// console.log("howOld ли копией  ", testObject.howOld === copyTestObject.howOld );
+// console.log( "outPut ли копией  ", testObject.outPut === copyTestObject.outPut );
+// console.log("Является ли владельцем свойства outPut?? ", copyTestObject.hasOwnProperty('outPut'));
+// testObject.outPut();
+// copyTestObject.outPut();
+// copyTestObject.name = 'Vasya';
+// copyTestObject.outPut();
 

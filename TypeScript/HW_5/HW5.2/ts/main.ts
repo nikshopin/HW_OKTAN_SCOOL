@@ -1,0 +1,3 @@
+let r = (radius: number): number => 3.14 * radius ** 2;
+
+document.write("<h1>" + r(10) +"</h1>");
